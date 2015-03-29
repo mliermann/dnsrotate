@@ -1,0 +1,11 @@
+README FILE FOR DNSROTATE.PY
+
+DESCRIPTION
+Python script that ranks a list of nameservers by response time and dynamically rewrites forward resolver list based on that ranking.
+
+FILES
+/opt/scripts/dnsrotate/dnsrotate.py	the script itself
+/opt/scripts/dnsrotate/dnsservers	input file of DNS servers to be ranked
+/etc/resolv.dnsmasq			forward resolver file used by dnsmasq; target for ranked nameserver list
+
+
